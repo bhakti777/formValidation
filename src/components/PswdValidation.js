@@ -5,6 +5,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
 const PswdValidation = () => {
+  const [password,setpassword]=useState("")
   const [criteria, setCriteria] = useState({
     isUppercase: false,
     isLowercase: false,
@@ -20,9 +21,9 @@ const PswdValidation = () => {
   // const passwordlength=
 
   const handleOnChange = (event) => {
-    setCriteria(event.target.value);
+    setpassword(event.target.value);
   };
-  console.log(criteria);
+  console.log(password);
 
 
   
