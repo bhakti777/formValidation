@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.setmargin{
+  margin-top: 100px;;
+}
+.setbtnsize{
+  width: 100%;
+}
